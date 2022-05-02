@@ -19,6 +19,7 @@ nav ul li{
 
 body{
     background-color: #353A47;
+    font-family: 'Josefin Sans',Verdana,Tahoma, sans-serif;
     display: flex;
     flex-direction: column;
     width: 99%;
@@ -60,4 +61,35 @@ button{
 }
 .mole{
     background-image: url("../WackAMole/images/mole.PNG");
+}
+
+/*Breakout lines*/
+
+.breakoutGrid{
+    position: absolute;
+    width: 560px;
+    height: 300px;
+    border: solid black 1px;
+    margin-top: 80px;
+}
+
+.block{
+    position:absolute;
+    width: 100px;
+    height: 20px;
+    background-color: aqua;
+}
+
+.user{
+        position:absolute;
+        width: 100px;
+        height: 20px;
+        background-color: silver;
+}
+.ball{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    border-radius: 10px;
 }

@@ -7,31 +7,26 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../css/styles.css">
-    <title>Rock|Paper|Scissors</title>
+    <title>Breakout</title>
 </head>
 <body>
     <nav>
         <ul>
             <li><a alt="Home page" href="../index.html">Home</a></li>
-            <li><a alt="RockPaperScissors" href="">Rock, Paper, Scissors</a></li>
+            <li><a alt="RockPaperScissors" href="../RockPaperScissors/index.html">Rock, Paper, Scissors</a></li>
             <li><a alt="Memory Game" href="../MemoryGame/index.html">Memory Game</a></li>
             <li><a alt="Wack A Mole" href="../WackAMole/index.html">Wack A Mole</a></li>
-            <li><a alt="Breakout" href="../Breakout/index.html">Breakout</a></li>
+            <li><a alt="Breakout" href="">Breakout</a></li>
         </ul>
     </nav>
     <header>
-        <h1>Rock, Paper, Scissors</h1>
+        <h1>Breakout</h1>
     </header>
-    <div class="stageCenter">
-        <h2>Computer Choice:<span id="computer-choice"></span></h2>
-        <h2>Your Choice:<span id="user-choice"></span></h2>
-        <h2>Result:<span id="result"></span></h2>
+    <div class="stageCenter"> <!--I'm not sure why the style for this div is not covering the game itself.  I am expecting 
+                                    it to have a white background like the score section, since its inside the styled div.-->
+        <div id="score">0</div>
+        <div class="breakoutGrid"></div>
     </div>
-    <div class="background">
-        <button id="rock">rock</button>
-        <button id="paper">paper</button>
-        <button id="scissors">scissors</button>
-    </div>
-    <script src="js/rps.js"></script>
+    <script src="js/breakout.js"></script>
 </body>
 </html>
