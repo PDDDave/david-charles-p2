@@ -1,0 +1,48 @@
+nav ul{
+    display: flex;
+    list-style: none;
+    background-color: #38023B;
+    padding: 2em;
+    border-radius: 1em;
+    justify-content: center;
+}
+h1{
+    color: #fff;
+}
+
+nav ul li{
+    background-color: silver;
+    padding: 1em;
+    margin-right: 1em;
+    border-radius: 2em;
+}
+
+body{
+    background-color: #353A47;
+    display: flex;
+    flex-direction: column;
+    width: 99%;
+    align-items: center;
+}
+
+button{
+    margin-top: 1em;
+}
+
+.background{
+    background-color: #353A47;
+}
+
+.stageCenter {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    border-radius: 1em;
+    background-color: #fff;
+    align-items: center;
+}
+
+.stageCenter img {
+    max-width: 30%;
+    margin-left: 1.2em;
+}
